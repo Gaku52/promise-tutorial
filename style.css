@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #eee;
+  border-radius: 5px;
+  font-size: 60px;
+  font-weight: bold;
+}
